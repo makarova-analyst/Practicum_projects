@@ -17,7 +17,17 @@
 
 ---
 
+### [**🍕 Анализ динамики ключевых бизнес-метрик сервиса доставки еды**](food_delivery_analysis/)
+*Анализ сервиса доставки еды «Всё.из.кафе» в Саранске за май-июнь 2021 года*
 
+**📋 Задачи проекта:**
+- 📊 [Расчёт DAU, Conversion Rate, Retention Rate](food_delivery_analysis/sql_queries/)
+- 💰 [Анализ среднего чека и LTV](food_delivery_analysis/sql_queries/)
+- 🏆 [Выявление топ-ресторанов и популярных блюд](food_delivery_analysis/sql_queries/5_top_dishes_ltv.sql)
+- 📈 [Построение дашборда в DataLens](food_delivery_analysis/datalens/dashboard_link.md)
+- 📋 [Аналитический отчёт](food_delivery_analysis/analytics_report.pdf)
+
+**🛠️ Технологии:** SQL, DataLens, бизнес-аналитика, когортный анализ
 
 ---
 
