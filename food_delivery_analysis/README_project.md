@@ -6,7 +6,7 @@
 ## 📁 Структура проекта
 
 ### SQL Запросы
-- [**1. Расчёт DAU**](sql_queries/1_dau_calculation.sql) - ежедневное количество активных пользователей
+- [**1. Расчёт DAU**](sql_queries/1_dau.sql) - ежедневное количество активных пользователей
 - [**2. Расчёт Conversion Rate**](sql_queries/2_conversion_rate.sql) - коэффициент конверсии
 - [**3. Расчёт среднего чека**](sql_queries/3_avg_check.sql) - средняя сумма покупки
 - [**4. Расчёт LTV ресторанов**](sql_queries/4_ltv_restaurants.sql) - топ-3 ресторанов по доходности
