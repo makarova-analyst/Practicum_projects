@@ -4,11 +4,11 @@
 
 SELECT
     ae.log_date,
-    COUNT(DISTINCT ae.user_id) AS DAU
+    COUNT(DISTINCT ae.user_id) AS DAU                    -- Количество уникальных пользователей за день
 FROM analytics_events AS ae
-JOIN cities AS c ON ae.city_id = c.city_id
-WHERE c.city_name = 'Саранск'
-AND ae.event = 'order'
-AND ae.log_date BETWEEN '2021-05-01' AND '2021-06-30'
+JOIN cities AS c ON ae.city_id = c.city_id               -- Соединяем с таблицей городов для фильтрации
+WHERE c.city_name = 'Саранск'                            -- Фильтр: только город Саранск
+AND ae.event = 'order'                                   -- Фильтр: только события типа "заказ"
+AND ae.log_date BETWEEN '2021-05-01' AND '2021-06-30'    -- Период анализа: май-июнь 2021
 GROUP BY ae.log_date
 ORDER BY ae.log_date ASC;
