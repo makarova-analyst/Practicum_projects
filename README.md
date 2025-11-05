@@ -31,6 +31,22 @@
 
 ---
 
+### [**🎭 Анализ пользовательского спроса и активности Яндекс Афиши**](yandex_afisha_analysis/)
+*Комплексный анализ сервиса бронирования билетов за период с 1 июня по 30 ноября 2024 года*
+
+**📋 Задачи проекта:**
+- 📊 [Расчет общих ключевых метрик](yandex_afisha_analysis/sql_queries/1_general_metrics.sql)
+- 📱 [Анализ выручки по типам устройств](yandex_afisha_analysis/sql_queries/2_device_analysis.sql)
+- 🎭 [Распределение по типам мероприятий](yandex_afisha_analysis/sql_queries/3_event_type_analysis.sql)
+- 📈 [Недельная динамика показателей](yandex_afisha_analysis/sql_queries/4_weekly_dynamics.sql)
+- 🏆 [Топ регионов по выручке](yandex_afisha_analysis/sql_queries/5_top_regions.sql)
+- 📊 [Построение дашборда в DataLens](https://datalens.yandex/ad2wpv0823vmv)
+- 🔍 [Исследовательский анализ в Python](yandex_afisha_analysis/Yandex_Afisha_Data_Analysis.ipynb)
+
+**🛠️ Технологии:** SQL, Python, Pandas, SciPy, DataLens, статистический анализ
+
+---
+
 ## 🚀 Как использовать
 
 1. Выберите проект из списка выше
